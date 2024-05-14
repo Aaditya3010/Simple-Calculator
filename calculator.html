@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div id="display"><p id="value">0</p></div>
+            <div class="buttons">
+                <div class="rowone">
+                    <span class="button" onclick="send(1)">&nbsp1&nbsp</span>
+                    <span class="button" onclick="send(2)">&nbsp2&nbsp</span>
+                    <span class="button" onclick="send(3)">&nbsp3&nbsp</span>
+                    <span class="button" onclick="func('+')">&nbsp+&nbsp</span>
+                </div>
+                <div class="rowtwo">
+                    <span class="button" onclick="send(4)">&nbsp4&nbsp</span>
+                    <span class="button" onclick="send(5)">&nbsp5&nbsp</span>
+                    <span class="button" onclick="send(6)">&nbsp6&nbsp</span>
+                    <span class="button" onclick="func('-')">&nbsp-&nbsp</span>
+                </div>
+                <div class="rowthree">
+                    <span class="button" onclick="send(7)">&nbsp7&nbsp</span>
+                    <span class="button" onclick="send(8)">&nbsp8&nbsp</span>
+                    <span class="button" onclick="send(9)">&nbsp9&nbsp</span>
+                    <span class="button" onclick="func('*')">&nbsp*&nbsp</span>
+                </div>
+                <div class="rowfour">
+                    <span class="button" onclick="func('C')">&nbspC&nbsp</span>
+                    <span class="button" onclick="send(0)">&nbsp0&nbsp</span>
+                    <span class="button" onclick="func('=')" id="equal"> &nbsp=&nbsp</span>
+                    <span class="button" onclick="func('/')">&nbsp/&nbsp</span>
+                </div>
+            </div>
+        </div>
+    </section>
+     <link rel="stylesheet" href="style.css">
+     <script src="calculate.js"></script>
+</body>
+</html>
